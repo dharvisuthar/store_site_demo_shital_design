@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  .home-main-carsoul{
+    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://truerajasthan.com/wp-content/uploads/2020/04/Metalware.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+  }
+.home-main-carsoul-overlay{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #232429;
+    opacity: .3;
+    width: 100%;
+    height: 720px;
+}
+  .product-main-carsoul{
+    background-image: url("https://tjori.gumlet.com/compressed/images/sub-categories/utensils-subcategory-cover-image-2018-01-10-20:06:15.002461.jpeg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+  }
+.about-main-carsoul{
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/9/2020/02/clay-pots-FT-MAG0320.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+  
+}
+.contact-main-carsoul{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/808/804/non_2x/old-cooking-utensils-photo.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+  
+}
+.terms-condition-main-carsoul{
+  background-image: url("https://daly-me.com/wp-content/uploads/2015/04/banner.jpg");
+    background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+}
+.privay-policy-main-carsoul{
+  background-image: url("https://www.kashishworld.com/kipg_new/img/Privacy-Policy-banner.jpg");
+    background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 720px;
+}
+
+.map-style{
+    height: 500px;
+    width: 100%;
+}
+.navbar-header{
+background: rgb(230 225 211 /0.4) !important;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+  .navbar-header.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: -130px;
+    background: #fff !important;
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    padding: 0;
+  }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e6e1d3 !important;
+    cursor: pointer;
+}
+  .bg-darka{
+    background-color: #111111 !important;
+  }
+  .col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 30.333333%;
+}
+  .h-250{
+    height: 250px;
+  }
+  .portfolio{
+    position: relative;
+    color: #232429;
+  }
+  .portfolio .overlay-portfolio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    content: '';
+    background: #232429;
+  }
+  
+.mh-title-whywork{
+  min-height: 100px;
+  margin: 0px;
+}
+.mh-desc-whywork{
+  min-height: 140px;
+}
+.bg-col-div-why-work{
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 1px 3px 3px rgb(0 0 0 / 10%);
+  height: 420px;
+}
+.bg-col-div-why-work:hover {
+  box-shadow: 0px 1px 3px 3px rgb(0 0 0 / 20%);
+  color: #000000;
+  cursor: pointer;
+}
+.bg-col-div-why-work:hover .text-successa{
+  color: #000000 !important;
+}
+.text-successa{
+  color: #e6e1d3 !important;
+}
+.bg-success{
+  background-color: #e6e1d3 !important;
+}
+.icon-align-bt-why-work{
+  position: relative;
+  bottom: 15px;
+  right: -130px;
+  visibility: hidden;
+  color: #e6e1d3;
+  background-color: black;
+  border-radius: 100%;
+  transition-duration: 0.1s;
+}
+.bg-col-div-why-work:hover .icon-align-bt-why-work{
+  visibility: visible;
+  right: -160px;
+  transition-duration:0.5s;
+}
+.bg-img-footer-top-overlay{
+  width: 100%;
+  background-color: #e6e1d3;
+  opacity: 0.7;
+  height: 320px;
+  position: relative;
+  border-radius: 5px;
+  top:-220px;
+}
+.height-footer-top{
+  height: 320px;
+}
+.bg-black{
+  background-color: #000000;
+}
+.ul-li-remove{  
+    padding: 0px;
+    list-style: none;
+}
+  .li-footer:hover {
+    color: #e6e1d3;
+    cursor: pointer;
+}
+.h-project{
+  height: 280px;
+}
+.project-wrap-overlay{
+  visibility: hidden;
+    background-color: #e6e1d3;
+    position: relative;
+    top: -266px;
+  transition-duration: 0.2s;
+  color: #000;
+  }
+.project-wrap:hover .project-wrap-overlay{
+  visibility: visible;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+.home-slider-overlay-text{
+      position: absolute;
+    top: 400px;
+    color: #ffffff;
+    font-weight: 800;
+}
+  .join-us-btn{
+    background-color: #e6e1d3;   
+    padding: 10px 35px;
+    border: 2px #e6e1d3 solid;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+  }
+  .join-us-btn:hover{
+    background-color: #000000;  
+    border: 2px #000000 solid;
+    color: #e6e1d3;
+  }
+  .portfolio-btn{
+    background-color: #000000;   
+    padding: 10px 35px;
+    border: 2px #000000 solid;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e6e1d3;
+  }
+  .portfolio-btn:hover{
+    background-color: #e6e1d3;  
+    border: 2px #e6e1d3 solid;
+    color: #000000 !important; 
+  }
+  .join-now-btn{
+    background-color: #e6e1d3;  
+    border: 2px #000000 solid;
+    color: #000000;
+    padding: 10px 35px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .join-now-btn:hover{
+    background-color: #000000;  
+    border: 2px #000000 solid;
+    color: #e6e1d3;
+  }
+  .portfolio-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    content: '';
+    background: #e6e1d3;
+  }
+  .btn-portfolio-home{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 2px solid #232429;
+    padding: 6px 15px;
+    background-color: #e6e1d3;
+    color: #232429;
+  }
+  .btn-portfolio-home:hover{
+    border: 2px solid #e6e1d3;
+    background-color: #232429;
+    color: #e6e1d3;
+    cursor: pointer;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 30px 30px 12px;
+    transform: translateY(2px);
+    outline: inherit;
+    border-bottom:  5px solid !important;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 30px 30px 12px;
+    transform: translateY(2px);
+    outline: inherit;
+  }
+  a{
+    color: #333 !important;
+  }
+  .card-img{
+    height: 300px;
+  }
+  .card-title-div{
+    height: 75px;
+  }
+  .bg-e6e1d3{
+    background-color: transparent;
+    border:1px solid #333;
+    color:#333;
+  }
+  .bg-e6e1d3:hover{
+    background-color: #333;
+    cursor: pointer;
+    color:#fff;
+  }
+  .vertically-align-center{
+    
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 26px;
+  padding: 9%;
+  text-align: center;
+  }
+  .bg-img-right{
+    background-color: #e6e1d3;
+  }
+  .input-connect{
+    padding: 2px 17px;
+    width: 55%;
+    height: 40px;
+    border-radius: 0px;
+    border: 0px solid;
+    margin-top: 10px;
+  }
+  .h-500{
+    height: 500px;
+  }
+  ul{
+    list-style: none !important;
+  }
+  .a-fff{
+    color: #fff !important;
+  }
+  .a-fff:hover{
+    color: #e6e1d3 !important;
+    cursor: pointer;
+  }
